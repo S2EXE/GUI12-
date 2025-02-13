@@ -119,8 +119,8 @@ function promptRet.create(title, description, primary, secondary, callback)
 	prompt.Policy.Actions.Secondary.Title.Text = secondary
 
 	-- **Kırmızı renk ayarı**
-	prompt.Policy.Actions.Primary.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Kırmızı renk
-	prompt.Policy.Actions.Primary.Title.TextColor3 = Color3.fromRGB(255, 255, 255) -- Yazı rengini beyaz yap
+	prompt.Policy.Actions.Primary.BackgroundColor3 = Color3.fromRGB(245, 245, 245) -- Kırmızı renk
+	prompt.Policy.Actions.Primary.Title.TextColor3 = Color3.fromRGB(0, 0, 0) -- Yazı rengini beyaz yap
         prompt.Policy.Actions.Primary.Shadow.ImageColor3 = Color3.fromRGB(139, 0, 0) -- Koyu kırmızı
 
 	
